@@ -1,0 +1,23 @@
+@media (min-width: 576px) { 
+	h1 {
+		background: red;
+	}
+}
+
+@media (min-width: 768px) { 
+	h1 {
+		background: blue;
+	}	
+}
+
+@media (min-width: 992px) { 
+	h1 {
+		background: yellow;
+	}
+}
+
+@media (min-width: 1200px) { 
+	h1 {
+		background: green;
+	}
+}
