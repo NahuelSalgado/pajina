@@ -1,6 +1,7 @@
 @media (min-width: 576px) { 
 	h1 {
 		background: red;
+		font-size: small;
 	}
 }
 
