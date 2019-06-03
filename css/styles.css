@@ -1,24 +1,58 @@
-@media (min-width: 576px) { 
-	h1 {
-		background: red;
-		font-size: small;
-	}
+h1 {
+	background-color:#52527a;
+}
+div {
+	position: relative;
 }
 
-@media (min-width: 768px) { 
-	h1 {
-		background: blue;
-	}	
+.jumbotron {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    clear: left;
+    }
+
+div {
+    	 border-radius: 5px;
+    	 border-color: #000000;
+    }
+
+     .contenido {
+    	text-align: center;
+    }
+
+nav {
+	background-color:  #4d0099;
 }
 
-@media (min-width: 992px) { 
-	h1 {
-		background: yellow;
-	}
+.nav-item:hover {
+	background-color: #cc0000;
 }
 
-@media (min-width: 1200px) { 
-	h1 {
-		background: green;
-	}
+.dropdown-item:hover {
+	background-color: #e0e0eb;
+}
+
+.pie {
+	background-color: #666699;
+	width: auto;
+	height: 450px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}   
+
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.contenedor {
+	height: 450px;
+	width: auto;
+    font-family: 'Righteous', cursive;
 }
