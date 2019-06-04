@@ -26,14 +26,6 @@ nav {
 	background-color:  #4d0099;
 }
 
-.nav-item:hover {
-	background-color: #cc0000;
-}
-
-.dropdown-item:hover {
-	background-color: #e0e0eb;
-}
-
 .pie {
 	background-color: #666699;
 	width: auto;
