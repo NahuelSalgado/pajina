@@ -73,3 +73,23 @@ form.needs-validation {
 #navForm {
     margin-top: -5px;
 }
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+#galeria img {
+border: 10px solid #E3FFFC;
+border-radius: 10px;
+margin: 30px;
+}
+
+#galeria {
+    width: 1200px;
+    margin:0 auto;
+    background-color: #52527a;
+}
+
+li {
+    list-style: none;
+}
