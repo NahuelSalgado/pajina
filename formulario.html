@@ -4,24 +4,54 @@
 <title> Encuesta </title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles.css">
 <link type="image/jpg" href="imagenes/icono.jpg" rel="shortcut icon" />
 
 </head>
-<body>
+<body class="cuerpoForm">
+<div class="text-center">
+      <h1>Página genérica</h1>
+  </div>
+  <nav c
+<nav class="navbar navbar-expand-lg bg-dark" id="navForm">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Opciones</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+      <li class="nav-item">
+        <a class="nav-link" href="formulario.html">Contacto</a>
+      </li>
+      <li class="nav-item dropdown">
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 <div class="container">
 <form class="needs-validation" novalidate>
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationCustom01">Nombre</label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <label for="validationCustom02">Apellido</label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -32,7 +62,7 @@
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroupPrepend">@</span>
         </div>
-        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Correo" aria-describedby="inputGroupPrepend" required>
         <div class="invalid-feedback">
           porfavor, ingrese su apellido.
         </div>
@@ -42,14 +72,14 @@
   <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationCustom03">Ciudad</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Ciudad" required>
       <div class="invalid-feedback">
         porfavor, ingrese su ciudad.
       </div>
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom04">País</label>
-      <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="País" required>
       <div class="invalid-feedback">
         por favor, ingrese su pais.
       </div>

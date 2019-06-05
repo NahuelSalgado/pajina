@@ -1,6 +1,7 @@
 h1 {
 	background-color:#52527a;
 }
+
 div {
 	position: relative;
 }
@@ -11,16 +12,16 @@ div {
     margin: 20px;
     padding: 20px;
     clear: left;
-    }
+}
 
 div {
     	 border-radius: 5px;
     	 border-color: #000000;
-    }
+}
 
-     .contenido {
+.contenido {
     	text-align: center;
-    }
+}
 
 nav {
 	background-color:  #4d0099;
@@ -50,9 +51,25 @@ position:absolute;
     font-family: 'Righteous', cursive;
 }
 
-#arriba{
+#arriba {
     /*"boton" para subir*/
 position:fixed ;
 top: 80%;
 right: 3%;
+}
+
+form.needs-validation {
+    border: #1F85FF outset;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #D3FFFA;
+}
+
+.cuerpoForm {
+    background-color: #52527a;
+}
+
+#navForm {
+    margin-top: -5px;
 }
