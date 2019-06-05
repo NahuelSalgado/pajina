@@ -49,3 +49,10 @@ position:absolute;
 	width: auto;
     font-family: 'Righteous', cursive;
 }
+
+#arriba{
+    /*"boton" para subir*/
+position:fixed ;
+top: 80%;
+right: 3%;
+}
