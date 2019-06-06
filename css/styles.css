@@ -103,12 +103,17 @@ li {
 }
 
 .video {
-border: 10px solid #000066;
-border-radius: 10px;
+border: 10px solid #527a7a;
+border-radius: none;
 margin: 30px;
 
 }
 
+.texto_galeria {
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
 
 .texto_formulario {
     color: #ffffff;
